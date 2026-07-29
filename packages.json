@@ -1,0 +1,28 @@
+{
+  "name": "argon",
+  "version": "0.1.0",
+  "description": "A microkernel-style Web application framework for the browser",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "microkernel",
+    "micro-frontend",
+    "sandbox",
+    "message-bus",
+    "browser"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "src/"
+  ]
+}
